@@ -36,7 +36,7 @@ public class Accurary {
 		}    
 		//double acc = correct * 100 / all;	    
 		double acc = correct / all;
-		System.out.println("The accuracy is: " + acc +"%");	        	    
+		System.out.println("The accuracy is: " + acc);	        	    
 		pLin.close();	    
 		tLin.close();		
 	}	
